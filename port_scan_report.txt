@@ -1,0 +1,77 @@
+================================================================================
+          TCP PORT SCAN SECURITY REPORT
+================================================================================
+
+Target     : 127.0.0.1
+Port Range : 7998 - 8003
+
+--------------------------------------------------------------------------------
+SCAN RESULTS
+--------------------------------------------------------------------------------
+
+Port: 7998
+State: TIMEOUT
+Service: N/A
+Version: N/A
+Observation: N/A
+Finding: N/A
+Time: 1.9945s
+----------------------------------------
+Port: 7999
+State: TIMEOUT
+Service: N/A
+Version: N/A
+Observation: N/A
+Finding: N/A
+Time: 2.0068s
+----------------------------------------
+Port: 8000
+State: OPEN
+Service: HTTP
+Version: SimpleHTTP/0.6 Python/3.14.7
+Observation: HTTP service exposed
+Finding: Review HTTP exposure
+Time: 0.0009s
+----------------------------------------
+Port: 8001
+State: TIMEOUT
+Service: N/A
+Version: N/A
+Observation: N/A
+Finding: N/A
+Time: 1.9992s
+----------------------------------------
+Port: 8002
+State: TIMEOUT
+Service: N/A
+Version: N/A
+Observation: N/A
+Finding: N/A
+Time: 2.0060s
+----------------------------------------
+Port: 8003
+State: TIMEOUT
+Service: N/A
+Version: N/A
+Observation: N/A
+Finding: N/A
+Time: 2.0234s
+----------------------------------------
+
+================================================================================
+SCAN SUMMARY
+================================================================================
+
+Ports scanned : 6
+Open          : 1
+Refused       : 0
+Timeout       : 5
+
+SERVICES
+----------------------------------------
+HTTP          : 1
+HTTPS         : 0
+SSH           : 0
+Unknown       : 0
+
+================================================================================
